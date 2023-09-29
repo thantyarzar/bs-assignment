@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP&family=Playfair:opsz@5..1200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 5%;
+}
+.collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.navbar-nav {
+  font-family: "Lato", sans-serif;
+}
+.title {
+  font-family: "Playfair", serif;
+}
+h5 {
+  font-family: "Lato", sans-serif;
+}
+p {
+  font-family: "Noto Sans JP", sans-serif;
+}
+.btn-block {
+  width: 100%;
+}
+.footer {
+  display: block;
+  border: 1px solid rgb(0, 0, 0, 0);
+  width: 100%;
+  background: #ece9e9;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.copyright {
+  padding-left: 25%;
+  margin-right: 25%;
+}
